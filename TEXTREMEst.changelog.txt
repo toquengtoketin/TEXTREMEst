@@ -1,0 +1,92 @@
+[4:13 AM]
++it currently saves/loads files in the same dir as the binary, making file managing much easier instead of it going to your 'my documents/textreme', since save/load is from binary location, relative paths from the current directory should work as well,, full paths , are unsure. they dont really work, only relative path techniques work at the moment 
+ie; ../file
+ie; ../../file
+ie; dir/file
+ie; dir/dir/file
++i made the file extension allow all file extensions not just "txt", you should be able to load and save as a strict file name "file", "document.txt", "program.exe".. are all valid and should at least _*try*_ to open
+--- some syntax issue is maybe resolved? but this was only for compiling issue,, i maybe try to tinker with this more to have isolated syntax folders, but this may cause too many files loaded at once, probability of lagg, but at the moment ,files save and load in the same dir, and you can save and load any file now.. 
++ also removed that 'X' from the main startup editor...
+
+[7:52 AM]
+! uhm , cant remember -- oh yeah, changed the splash, its actually something now
++ icon changes, way cooler now
+- poor export pe data[but thats not important to you][poor export in general]]
++ add all 145 available colors to 'typejerk' instead of just the 10
+
+[9:49 AM]
++ made everything a bit more random(random(random))
++ cleaner syntax code by S
++ have ability block codes "/*" to "*/" and got some "//comments" code by S
+- i stole the code for "#poundage"
+! 'auto-syntax' liek "main()" or "filename.extension" or "0xABCDEF"
+- 'colorizing individual symbols and unicode' are "impossible" [either engine limitation, or bug]
+
+[9:50 AM]
+all numbers and floats [even decimal series] are valid as well [goldenrod/orange color]
+
+[11:21 AM]
+- hid rhythm mode, meh gimmick, but not really even that cool to even use
+! made things a bit more destructive
+! actually added those 145 colors that were commented out
+- i forget what else i did, some cursor things, but its hidden, not really useful/working
+
+[11:55 AM]
+- fsck #poundage
+
+[12:51 PM]
+- im a terrible coder and forget things i do
+
+[6:55 PM]
++ a lot of tweaking
+- too much that ive forgotten
+- 'grey hell' may appear
+! magic
+--- um
++ pe data
++ yeah them effects!
++ fixed 'cross' effect
++ string highlight and stuff with single ' and double "
+
+[7:52 PM]
+- fffuuuuuuuucccccckkkkkkkk godot
+- nomore braces until magic is found
+! graceful 'grey hell' though, dont know how i semi-fixed that
+
+[10:56 PM]
+! nifty shit
++ added CLEAR button
++ save/load shows in title bar now to show what file you are currently loaded
+- small buggy/unimplemented/visually oddity
+- unable to, atm, make clear 'open null file',, so thats why i left the filename loaded in the titlebar, so you know its loaded
+! TWO or more EFFECTS AT ONCE, even when we were told not to do it
+
+[12:55 AM]
+! fixes all around
++ get told if you have no file loaded
+! error control !!!!
++ save / load filename., IN THAT TITLE BAR !!!
++ clear has been changed to NUKE [its the reset buttons, does not delete, do not worry]
++ you can sees what file is loaded, NUKE will clear the text on screen and unload the file
+- graceful 'grey hell' lurks hardcore like H, but its still there, not horribly bad though
+- i forget what else
+
+[2:19 AM]
++ save/load to the max!!!
++ loading a file, REALLY loads a file, ready to edit and save
+- pulled feature; delete file, theres gonna need some more REST for to get this to work
+- 'greyce' is still around
+
+[2:30 PM]
+- Greyce annoyingly still around
+! VISUALLY A BIT MORE banana
++ everything in 'lowercase' including symbols is now mostly dashed effected
++ everything that requires 'shift' and 'uppercase' letters now get the dot BAM effect
+! enter/delete has this now too
+- we were told not to but it works anyway
+
+[3:15 PM]
+- small QoL, but removed quote highlight attempt, its the issue with braces but if you are stricly writing code, it can get way ugly fast
+
+[4:02 PM]
+- removed '=begin' and '=end' comment syntax, gd does not like string syntax
